@@ -1,7 +1,7 @@
 // 定義變數
 let canvas = document.getElementById("myCanvas");
 let ctx = canvas.getContext("2d");
-let x = 0, y = 0, dx = 10, dy = 10, r = 10, color = "#0095DD";
+let x = 0, y = 0, dx = 10, dy = 10, r = 5, color = "#0095DD";
 let canmove=false ; // 初始值是1(true) 一進入網頁就會跟著移動 故用false
 // 畫圓形
 function drawBall() 
